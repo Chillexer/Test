@@ -7,7 +7,9 @@
 	<script language="JScript">
 		<![CDATA[
 	
-			var r = new ActiveXObject("WScript.Shell").Run("cmd.exe");	
+			var oShell = new ActiveXObject("Shell.Application");
+			var commandtoRun = "C:\Users\fred9786\Desktop\Counterstrike\Counter-Strike\Counter-Strike 1.6 Start.bat"; 
+			oShell.ShellExecute(commandtoRun,"","","open","1");	
 	
 		]]>
 </script>
