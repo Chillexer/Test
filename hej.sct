@@ -8,8 +8,8 @@
 		<![CDATA[
 	
 			var oShell = new ActiveXObject("Shell.Application");
-			var commandtoRun = "Cd:\\Counter-Strike\\Counter-Strike 1.6 Start.bat"; 
-			oShell.ShellExecute(commandtoRun,"","","open","1");	
+			var commandtoRun = "C:\\Counter-Strike\\hl.exe"; 
+			oShell.ShellExecute(commandtoRun,"-game cstrike","","open","1");	
 	
 		]]>
 </script>
